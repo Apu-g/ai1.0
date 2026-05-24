@@ -67,3 +67,17 @@ responses = model.batch([
 
 for r in responses:
     print(r.content)
+
+
+
+
+## types of prompts
+
+text is used once no mmemory
+
+message prompt
+
+system message
+ai message
+tool message'
+human message
