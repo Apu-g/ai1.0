@@ -1,0 +1,63 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs
+*.log
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# LangChain / AI temp files
+.cache/
+.chromadb/
+vectorstore/
+chroma/
+
+# Node modules (if frontend exists)
+node_modules/
+
+# Secrets / credentials
+*.pem
+*.key
+*.crt
+
+# Docker
+docker-compose.override.yml
+
+# Coverage / testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Streamlit
+.streamlit/secrets.toml
