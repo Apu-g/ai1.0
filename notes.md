@@ -2,6 +2,8 @@
 pip install uv
 uv init
 
+.venv\Scripts\activate
+
 # to make a venv we run
 uv init
 uv venv
