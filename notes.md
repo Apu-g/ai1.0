@@ -83,3 +83,10 @@ system message
 ai message
 tool message'
 human message
+
+
+## types to structure the data
+
+dataclass
+pydantic
+typedict
